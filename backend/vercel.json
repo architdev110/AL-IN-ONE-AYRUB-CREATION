@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npm install && npm run build",
+  "startCommand": "npm start",
+  "envPrefix": "REACT_APP_",
+  "functions": {
+    "backend/src/server.js": {
+      "memory": 1024,
+      "maxDuration": 60
+    }
+  }
+}
